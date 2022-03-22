@@ -1,87 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+
 body {
+    margin: 0;
+    padding: 0;
     background: url('Imagem/92.jpg') center center no-repeat fixed; 
-    text-align: center;
     background-size: auto;
     background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foto {
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 240px;
+}
+
+.cabecalho__porti {
+text-align: center;
 }
 
 .nomee {
     color: white;
     font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
-.foto {
-    display: block;
-    margin: auto;
-    margin-top: 60px;
-    border-radius: 50%;
-}
-
-div {
-    width: 250px;
-    height: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    font-size: 25px;
-    margin: 25px;
-    margin-top: 100px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.instagram {
-    background-color: rgba(0, 0, 0, 0.555);
-    border-radius: 25px;
-    text-align: center;
-    color: white; 
-    text-decoration: none;  
-}
-
-.instagram:hover {
-    background-color: rgba(25, 58, 119, 0.808);
-}
-
-.github {
-    background-color: rgba(0, 0, 0, 0.555);
-    border-radius: 25px;
-    text-align: center;
+.tecnologias__porti {
     color: white;
+    margin-top: 0;
 }
 
-.github:hover {
-    background-color: rgba(25, 58, 119, 0.808);
-}
-
-.linkedin {
-    background-color: rgba(0, 0, 0, 0.555);
-    border-radius: 25px;
-    text-align: center;
-    color: white; 
-}
-
-.linkedin:hover {
-    background-color: rgba(25, 58, 119, 0.808);
-}
-
-.email {
-    background-color: rgba(0, 0, 0, 0.555);
-    border-radius: 25px;
-    text-align: center;
-    color: white; 
-}
-
-.email:hover {
-    background-color: rgba(25, 58, 119, 0.808);
-}
-
-footer {
-    text-align: center;
-    padding: 5px;
+.projeto__porti {
     color: white;
-    color: rgba(255, 255, 255, 0.356);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 180px;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.linguagens__porti img {
+    width: 3.5rem;
+    margin: 5px;
+    margin-left: auto;
+}
+
+.linguagens__porti {
+    text-align: center;
 }
