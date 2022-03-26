@@ -27,7 +27,7 @@
   border-radius: 50%;
   padding: 15px;
   margin: 10px;
-  width: 50px;
+  width: 50px;      
   height: 50px;
   font-size: 18px;
   display: flex;
@@ -84,11 +84,8 @@
   color: #ffffff;
 }
 
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background-color: #46c1f6;
-  color: #ffffff;
+.fa-linkedin-in {
+  color: black;
 }
 
 .wrapper .instagram:hover,
@@ -98,11 +95,19 @@
   color: #ffffff;
 }
 
+.fa-instagram {
+  color: black;
+}
+
 .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
   background-color: #333333;
   color: #ffffff;
+}
+
+.fa-github {
+  color: black;
 }
 
 .wrapper .youtube:hover,
