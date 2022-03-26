@@ -79,6 +79,7 @@ header {
 }
 
 .sobre__descricao {
+    text-align: justify;
     color: white;
     max-width: 70%;
     font-size: 20px;
