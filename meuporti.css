@@ -9,15 +9,41 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    background-color: rgba(17, 17, 17, 0.712);
+}
+
+.menu__list {
+    font-weight: 800;
+    padding: 12px;
+    font-size: 20px;
+    margin: 0;
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+}
+
+.tete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__list a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
 .foto {
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 4rem;
     border-radius: 50%;
     width: 240px;
 }
 
 .cabecalho__porti {
-text-align: center;
+    text-align: center;
 }
 
 .nomee {
@@ -32,7 +58,7 @@ text-align: center;
     margin-top: 0;
 }
 
-.projeto__porti {
+.projeto {
     color: white;
     font-size: 4.5rem;
     text-align: center;
@@ -40,10 +66,54 @@ text-align: center;
 
 .linguagens__porti img {
     width: 3.5rem;
-    margin: 5px;
+    margin: 0 15px;
     margin-left: auto;
 }
 
-.linguagens__porti {
+.sobre__porti {
+    margin-top: 1.5rem;
+    color: white;
     text-align: center;
+    font-size: 50px;
+}
+
+.sobre__descricao {
+    color: white;
+    max-width: 70%;
+    font-size: 20px;
+}
+
+.linguagens__porti {
+    padding: 15px 10px 0;
+    text-align: center;
+}
+
+.teste {
+    color: white;
+    max-width: 500px;
+}
+
+.projeto__porti {
+    max-width: 100%;
+    text-align: center;
+}
+
+.projeto__img {
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.projeto__img:hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+footer {
+    color: rgba(241, 241, 241, 0.932);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
