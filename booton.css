@@ -22,5 +22,5 @@ button {
 
 .btn__download a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
