@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="meuporti.css">
-    <link rel="stylesheet" href="booton.css">
-    <link rel="stylesheet" href="socialmedia.css">
+    <link rel="stylesheet" href="css/meuporti.css">
+    <link rel="stylesheet" href="css/booton.css">
+    <link rel="stylesheet" href="css/socialmedia.css">
+    <link rel="stylesheet" href="css/loadingpage.css">
     <script src="https://kit.fontawesome.com/e8fe5d59d0.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="Imagem/favicon.ico" type="image/x-icon">
     <title>Antonio Cristovam - Portifolio</title>
 </head>
 <body>
+    <div class="overlay">
+        <div class="loader"></div>
+    </div>
     <header>
         <nav>
             <ul class="menu__list">
@@ -24,19 +28,19 @@
     </header>
 
     <section class="cabecalho__porti">
-        <img class="foto" src="Imagem/241475149_582806273099636_7481894369549297116_n.jpg" alt="foto pessoas">
+        <img class="foto" src="img/foto__png__curriculo.png" alt="foto pessoas">
         <h2 class="nomee typing">Antonio Cristovam (:</h2>
         <p class="tecnologias__porti">Desenvolvedor Front-End | HTML | CSS | JavaScript |</p>
         <div class="linguagens__porti">
-            <img src="Imagem/html.png" alt="logo-html">
-            <img src="Imagem/css.png" alt="logo-css">
-            <img src="Imagem/js.png" alt="logo-js">
-            <img src="Imagem/bootstrap.png" alt="logo-js">
+            <img src="img/html.png" alt="logo-html">
+            <img src="img/css.png" alt="logo-css">
+            <img src="img/js.png" alt="logo-js">
+            <img src="img/bootstrap.png" alt="logo-js">
         </div>
     </section>
 
     <div class="btn__download">
-       <button><a href="Imagem/CV.pdf" target="_blank">Download CV</a></button>
+       <button><a href="doc/curriculo__1.pdf" target="_blank">Download CV</a></button>
     </div>
 
     <div class="wrapper">
@@ -46,14 +50,12 @@
               <span><i class="fab fa-instagram"></i></span>
             </div>
         </a>
-
         <a href="https://github.com/antoniocristovam" target="_blank">
             <div class="icon github">
               <div class="tooltip">Github</div>
               <span><i class="fab fa-github"></i></span>
             </div>
         </a>
-
         <a href="https://www.linkedin.com/in/antoniocristovam/" target="_blank">
             <div class="icon linkedin">
                 <div class="tooltip">Linkedin</div>
@@ -61,7 +63,6 @@
               </div>
             </div>
         </a>
-
       <hr>
 
     <h3 class="sobre__porti">Um pouco sobre mim</h3>
@@ -71,25 +72,20 @@
             <br><br>
         Desde pequeno que eu sou apaixonado pela área de
         tecnologia, atualmente estou estudando Desenvolvimento Web, com as seguintes tecnologias: HTML, CSS e JavaScript.
-        Gosto muito de estudar e aprender coisas novas, tenho
-        muita vontade de evoluir e futuramente me torna um
-        desenvolvedor Full-Stack, ainda não tenho experiência
-        profissional, mas constantemente estou buscando evoluir.
+        Gosto muito de estudar e aprender coisas novas, tenho muita vontade de evoluir e futuramente me tornar um desenvolvedor Full-Stack, ainda não tenho experiência profissional, mas constantemente estou buscando evoluir.
     </p>
     </div>
+
     <br>
     <hr>
-    
-
     <h3 class="projeto" id="projetos">PROJETOS</h3>
     <div class="projeto__porti">
-        <img class="projeto__img" src="Imagem/projeto-01.png" alt="">
-        <img class="projeto__img" src="Imagem/pro'jeto-02.png" alt="">
-        <img class="projeto__img" src="Imagem/projeto-03.png" alt="">
-        <img class="projeto__img" src="Imagem/projeto-01.png" alt="">
-        <img class="projeto__img" src="Imagem/projeto-01.png" alt="">
-        <img class="projeto__img" src="Imagem/projeto-01.png" alt="">
+        <img class="projeto__img" src="img/projeto-01.png" alt="">
+        <img class="projeto__img" src="img/projeto-02.png" alt="">
+        <img class="projeto__img" src="img/projeto-03.png" alt="">
+        <img class="projeto__img" src="img/projeto-01.png" alt="">
     </div>
     <footer>❤️ Criado por &copy;Antonio Cristovam ❤️</footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
